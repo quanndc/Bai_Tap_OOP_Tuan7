@@ -24,7 +24,7 @@ public class Textpad extends Document {
         this.content = "";
     }
 
-
+    
     @Override
     void inputContent() {
         System.out.println("Hay nhap content");

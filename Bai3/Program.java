@@ -11,14 +11,14 @@ public class Program {
             System.out.println();
             Scanner input = new Scanner(System.in);
             int choice;
+            Textpad txt = new Textpad();
             do{
                 System.out.println("Vui long chon chu nang so");
                 choice = Integer.parseInt(input.nextLine());
+             
                 switch(choice){
                     case 1: 
-                        Textpad txt = new Textpad();
-                        //setContent("");
-                        //setFileName("NoName.txt");
+                        txt = new Textpad();
                         break;
                     case 2:
                         txt.inputContent();
