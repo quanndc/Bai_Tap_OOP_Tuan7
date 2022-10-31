@@ -1,35 +1,35 @@
 import java.sql.Date;
 
 public abstract class Document {
-    public String fileName;
-    public String getFileName() {
+    protected String fileName;
+    protected String getFileName() {
         return fileName;
     }
-    public void setFileName(String fileName) {
+    protected void setFileName(String fileName) {
         this.fileName = fileName;
     }
 
-    public Date createDate;
-    public Date getCreateDate() {
+    protected Date createDate;
+    protected Date getCreateDate() {
         return createDate;
     }
-    public void setCreateDate(Date createDate) {
+    protected void setCreateDate(Date createDate) {
         this.createDate = createDate;
     }
 
-    public Date lastModifiedDate;
-    public Date getLastModifiedDate() {
+    protected Date lastModifiedDate;
+    protected Date getLastModifiedDate() {
         return lastModifiedDate;
     }
-    public void setLastModifiedDate(Date lastModifiedDate) {
+    protected void setLastModifiedDate(Date lastModifiedDate) {
         this.lastModifiedDate = lastModifiedDate;
     }
     
-    public String content;
-    public String getContent() {
+    protected String content;
+    protected String getContent() {
         return content;
     }
-    public void setContent(String content) {
+    protected void setContent(String content) {
         this.content = content;
     }
 
